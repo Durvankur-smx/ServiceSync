@@ -74,9 +74,7 @@ public class SecurityConfig {
     List.of(
         "http://localhost:5173",
         "http://localhost:5174",
-        "https://service-sync-two.vercel.app",
-        "https://service-sync-qzzcs10kt-druv.vercel.app",
-        "https://service-sync-git-main-druv.vercel.app"
+        "https://service-sync-two.vercel.app/"
     )
 );
 
