@@ -56,12 +56,14 @@ public class SecurityConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOriginPatterns(
-        List.of(
-                "http://localhost:5173",
-                "http://localhost:5174",
-                "https://*.vercel.app"
-        )
+        configuration.setAllowedOrigins(
+    List.of(
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://service-sync-two.vercel.app",
+        "https://service-sync-qzzcs10kt-druv.vercel.app",
+        "https://service-sync-git-main-druv.vercel.app"
+    )
 );
 
         configuration.setAllowedMethods(
