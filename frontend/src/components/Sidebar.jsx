@@ -71,7 +71,7 @@ export default function Sidebar({ isOpen, onClose }) {
           <div className="border-t border-slate-200 p-4">
             <div className="rounded-lg bg-slate-50 p-4">
               <p className="text-sm font-semibold text-slate-900">Backend</p>
-              <p className="mt-1 break-all text-xs text-slate-500">hhttps://servicesync-8zqe.onrender.com</p>
+              <p className="mt-1 break-all text-xs text-slate-500">https://servicesync-8zqe.onrender.com</p>
             </div>
           </div>
         </div>
